@@ -2,8 +2,6 @@
 
 angular.module('authenticationApp').config(['$stateProvider', '$urlRouterProvider',function($stateProvider, $urlRouterProvider) {
   
- 
-  
   $urlRouterProvider.otherwise('/'); /* Handel all the wrong urls request and redirect to home */
 
   $stateProvider
@@ -13,7 +11,6 @@ angular.module('authenticationApp').config(['$stateProvider', '$urlRouterProvide
         templateUrl: '/views/main.html'
 
     })
-
 
        .state('register', {
         url: '/register',

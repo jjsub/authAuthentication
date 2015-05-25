@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the authenticationApp
  */
-angular.module('authenticationApp')
+angular.module('authenticationApp',[ 'ui.router'])
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
